@@ -1,0 +1,135 @@
+@import "modules/fonts";
+@import "modules/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+  appearance: none;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.section {
+  margin-top: 50px;
+
+  &__title {
+    font-family: Micra, sans-serif;
+    color: #053339;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #053339;
+    width: 100%;
+  }
+}
+
+.row {
+  width: 100%;
+}
+
+.param-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.elective-data {
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__picker {
+    flex: 1;
+    margin-right: 50px;
+  }
+
+  &__location {
+    flex: 1;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  &__button {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.graph {
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  margin: 40px 0;
+
+  &__title {
+    font-size: 30px;
+    font-family: 'sans-serif';
+    margin-bottom: 20px;
+  }
+}
+
+.el-table {
+  &__row {
+    &:last-child {
+      color: #909399;
+      font-weight: bold;
+      background-color: #F5F7FA;
+    }
+  }
+}
+
+.total-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  border-color: transparent;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  &__count {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+  }
+}
+.main-table {
+  width: 100%;
+}
