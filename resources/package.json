@@ -14,7 +14,7 @@
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "echarts": "^4.2.1",
     "element-ui": "^2.9.2",
     "global": "^4.4.0",
