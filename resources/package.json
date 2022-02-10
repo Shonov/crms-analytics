@@ -19,7 +19,7 @@
     "element-ui": "^2.9.2",
     "global": "^4.4.0",
     "material-design-icons-iconfont": "^5.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "vue": "^2.5.2",
     "vue-echarts": "^4.0.3",
     "vue-moment": "^4.0.0",
